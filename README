@@ -12,7 +12,7 @@ Yii config main.php exapmle:
 	'components'=>array(
 		'Smtpmail'=>array(
 			'class'=>'application.extensions.mailer.mailer',
-			'URL'=>'http://name.or.ip.to.your.forwarder.server/path/to/mailer/forwarder.php',
+			'URL'=>'http://name.or.ip.to.your.forwarder.server/path/to/forwarder/forwarder.php',
 			'System'=>'<The subject prefix made by forwarder>',
 		),
 	)
