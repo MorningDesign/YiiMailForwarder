@@ -1,7 +1,11 @@
 We are getting tired of BlueHost SMTP server and wanna get rid of it.
-So we made a Yii Framework extension as mail forwarder.
+So we made this mail forwarder Yii Framework extension.
+
 
 This extension should be treat/used like a normal PHPMailer extension of Yii Framework but to forward the mail request outside of BlueHost (or whatever hosting server you want to get rid of) to the real SMTP server.
+Without changing the project's existing sending email code, just replace this PHPMailer extension with this mail forwarder extension.
+
+
 If you like to get rid of your hosting provider, make sure your provider should allows your Yii app to make HTTP request.
 
 
