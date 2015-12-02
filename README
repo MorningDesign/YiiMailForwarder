@@ -8,9 +8,12 @@ Without changing the project's existing sending email code, just replace this PH
 
 If you like to get rid of your hosting provider, make sure your provider should allows your Yii app to make HTTP request.
 
+Requirements for forwarder
+=========================
+* A server that could make SMTP requests and run PHP code
 
 Dependency
-
+=========================
 * PHPMailer for Forwarder
 
 
